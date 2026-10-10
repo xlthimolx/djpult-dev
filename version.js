@@ -2,11 +2,16 @@
 // MAJOR.MINOR: MAJOR bei grossen Aenderungen/neuen Features, MINOR bei kleineren Anpassungen.
 // Bei jeder Aenderung: APP_VERSION/APP_BUILD hochzaehlen UND oben in APP_CHANGELOG einen Eintrag ergaenzen.
 // -> neuer Cache, und das Pult zeigt auf dem Geraet, welche Version mit welchen Aenderungen laeuft.
-const APP_VERSION = "4.26";
+const APP_VERSION = "4.27";
 const APP_BUILD = "2026-10-08";
 
 // Neueste Version zuerst.
 const APP_CHANGELOG = [
+  {
+    version: "4.27",
+    date: "2026-10-10",
+    changes: ["Fehler behoben: In der Drop-Verwaltung überlagerten sich korrigierte Songs (Reiter Korrigiert und Ohne Drop)."],
+  },
   {
     version: "4.26",
     date: "2026-10-08",

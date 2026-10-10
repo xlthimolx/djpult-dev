@@ -754,7 +754,7 @@ function renderDropsTab(list, songs) {
     const first = firstDropTime(song);
 
     const row = document.createElement("div");
-    row.className = "marks-row" + (hasFix ? " fixed" : "");
+    row.className = "marks-row" + (hasFix ? " drop-fixed" : "");
     const name = makeNameCell(song);
     const detected = document.createElement("span");
     detected.className = "marks-note";

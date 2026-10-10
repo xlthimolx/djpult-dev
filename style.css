@@ -888,7 +888,7 @@ body.h-screen {
   background: rgba(146, 64, 14, 0.15);
 }
 
-.marks-row.fixed {
+.marks-row.drop-fixed {
   background: rgba(30, 64, 175, 0.18);
 }
 
